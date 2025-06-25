@@ -1,0 +1,51 @@
+# Frontend Next.js
+lessontimer-fe/node_modules/
+lessontimer-fe/.next/
+lessontimer-fe/.env
+
+# Backend Java
+lessontimer-be/target/
+lessontimer-be/.idea/
+lessontimer-be/.classpath
+lessontimer-be/.project
+lessontimer-be/.settings/
+lessontimer-be/.env
+
+
+.DS_Store
+.env
+
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
