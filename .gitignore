@@ -1,0 +1,53 @@
+# Root
+HELP.md
+.vscode/
+.DS_Store
+*.pem
+*.tsbuildinfo
+*.iml
+*.ipr
+*.iws
+
+# --- Backend (lessontimer-be) ---
+lessontimer-be/target/
+lessontimer-be/.idea/
+lessontimer-be/.classpath
+lessontimer-be/.project
+lessontimer-be/.settings/
+lessontimer-be/.env
+lessontimer-be/.apt_generated
+lessontimer-be/.factorypath
+lessontimer-be/.springBeans
+lessontimer-be/.sts4-cache
+lessontimer-be/.mvn/wrapper/maven-wrapper.jar
+
+# NetBeans (falls verwendet)
+lessontimer-be/nbproject/private/
+lessontimer-be/nbbuild/
+lessontimer-be/dist/
+lessontimer-be/nbdist/
+lessontimer-be/.nb-gradle/
+
+# --- Frontend (lessontimer-fe) ---
+lessontimer-fe/node_modules/
+lessontimer-fe/.pnp
+lessontimer-fe/.pnp.*
+lessontimer-fe/.env*
+lessontimer-fe/.DS_Store
+lessontimer-fe/coverage/
+lessontimer-fe/.next/
+lessontimer-fe/out/
+lessontimer-fe/build/
+lessontimer-fe/.vercel/
+lessontimer-fe/npm-debug.log*
+lessontimer-fe/yarn-debug.log*
+lessontimer-fe/yarn-error.log*
+lessontimer-fe/.pnpm-debug.log*
+lessontimer-fe/next-env.d.ts
+
+# yarn specific
+lessontimer-fe/.yarn/*
+!lessontimer-fe/.yarn/patches
+!lessontimer-fe/.yarn/plugins
+!lessontimer-fe/.yarn/releases
+!lessontimer-fe/.yarn/versions
